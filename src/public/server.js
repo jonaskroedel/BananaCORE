@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(express.static('public')); // Serve static files from 'public' directory
 
 // Path to commands.json
-const commandsFilePath = path.join(__dirname, 'usercommands', 'commands.json');
+const commandsFilePath = path.join(__dirname, 'usrcommands', 'commands.json');
 
 // Route to get commands
 app.get('/commands', (req, res) => {
